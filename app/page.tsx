@@ -17,7 +17,7 @@ export default function Home() {
           </h1>
         </div>
         <h2 className="text-center text-[36px] uppercase animate-scale font-bold">
-          We've got something exciting in the works...
+          We&apos;ve got something exciting in the works...
         </h2>
       </div>
     </main>
