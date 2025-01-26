@@ -3,7 +3,8 @@ name: Deploy to Firebase Hosting on Push
 on:
   push:
     branches:
-      - "**" # Match all branches
+      - main
+      - development
 
 permissions:
   checks: write
@@ -21,5 +22,6 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LAVERICK_NTULI }}
           projectId: laverick-ntuli
+          channelId: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
         env:
           FIREBASE_CLI_EXPERIMENTS: webframeworks
