@@ -1,49 +1,29 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { getTestVariable } from "../../_actions/actions";
 
 const Test = () => {
-  const [showTestVairable, setShowTestVariable] = useState("No Test Variable");
+  const [showTestVairable, setShowTestVariable] =
+    useState("Show Test Variable");
   const [testVariable, setTestVariable] = useState<string | null>(null);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const data = (await getTestVariable()) ?? "Default Test Variable";
-      setTestVariable(data);
-    };
-    fetchData();
-  }, []);
+  const handleClick = async () => {
+    const data = (await getTestVariable()) ?? "Default Test Variable";
+    setTestVariable(data);
+    setShowTestVariable(data);
+  };
 
   return (
     <div>
-      <button
-        onClick={() => {
-          if (testVariable) {
-            setShowTestVariable(testVariable);
-          }
-        }}
-      >
-        {showTestVairable}
-      </button>
+      <button onClick={handleClick}>{showTestVairable}</button>
       <Image
         src="/images/logo/laverick-ntuli-communications-bulb-only.png"
         alt="Laverick Ntuli Communications Logo"
-        width={100}
-        height={100}
-      />
-      <Image
-        src="/images/logo/laverick-ntuli-communications-bulb-only.png"
-        alt="Laverick Ntuli Communications Logo"
-        width={400}
-        height={400}
-      />
-      <Image
-        src="/images/logo/laverick-ntuli-communications-bulb-only.png"
-        alt="Laverick Ntuli Communications Logo"
-        width={1000}
-        height={1000}
+        width={1100}
+        height={1100}
+        sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1280px"
       />
     </div>
   );
