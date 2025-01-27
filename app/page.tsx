@@ -12,11 +12,11 @@ export default function Home() {
             height={300}
             className="max-w-[200px] phone:max-w-[250px] tablet:max-w-[300px]"
           />
-          <h1 className="text-[24px] text-center">
+          <h1 className="text-[24px] text-center tracking-tight">
             Laverick Ntuli Communications
           </h1>
         </div>
-        <h2 className="text-center text-[36px] uppercase animate-scale font-bold">
+        <h2 className="text-center text-[36px] tracking-tight uppercase animate-scale font-bold">
           We&apos;ve got something exciting in the works...
         </h2>
       </div>
