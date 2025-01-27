@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import "./_styles/globals.css";
+import "@/_styles/globals.css";
+import { Header } from "@/_components/navigation/header/header";
 
 export const metadata: Metadata = {
   title: "Laverick Ntuli Communications",
@@ -14,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
