@@ -2,15 +2,18 @@ import type { Config } from "tailwindcss";
 
 export default {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./_components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./_utils/**/*.{js,ts,jsx,tsx,mdx}",
+    "./_lib/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     colors: {
       black: "#181818",
       white: "#FFFFFF",
-      purple: "#6938B5",
+      purple: "#6939B6",
+      grey: "#F1F1F1",
+      darkGrey: "#595F67",
       linkBlue: "#0000FF",
       transparent: "transparent",
     },
@@ -19,22 +22,31 @@ export default {
         "1rem",
         {
           lineHeight: "20px",
-          letterSpacing: "0.01rem",
+          letterSpacing: "-0.01rem",
           fontWeight: "300",
         },
       ],
-      subheading: [
+      subheadingSmall: [
         "1rem",
         {
-          letterSpacing: "0.02rem",
-          fontWeight: "600",
+          letterSpacing: "-0.02rem",
+          fontWeight: "700",
+        },
+      ],
+      subheadingLarge: [
+        "2rem",
+        {
+          letterSpacing: "-0.08rem",
+          fontWeight: "700",
+          lineHeight: "140%",
         },
       ],
       heading: [
-        "2.25rem",
+        "3.75rem",
         {
-          letterSpacing: "0.0225rem",
-          fontWeight: "300",
+          letterSpacing: "-0.15rem",
+          fontWeight: "700",
+          lineHeight: "90%",
         },
       ],
     },
