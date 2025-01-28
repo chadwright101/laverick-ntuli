@@ -30,7 +30,7 @@
   }
 
   p {
-    @apply text-paragraph text-justify;
+    @apply text-paragraph;
   }
 
   a {
