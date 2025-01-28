@@ -4,6 +4,7 @@ interface Props {
   children: React.ReactNode;
   cssClasses?: string;
   background?: "purple" | "transparent";
+  border?: boolean;
   borderColor?: string;
   textColor?: "white" | "black";
 }
@@ -14,14 +15,15 @@ const Heading = ({
   background = "purple",
   borderColor = "border-grey",
   textColor = "white",
+  border = true,
 }: Props) => {
   return (
     <div
       className={classNames(
-        "border-b desktop:border-none desktop:pb-0",
         {
-          "pb-10": background === "purple",
-          "pb-5": background !== "purple",
+          "pb-10": background === "purple" && border,
+          "pb-5": background !== "purple" && border,
+          "border-b desktop:border-none desktop:pb-0": border,
         },
         cssClasses,
         borderColor

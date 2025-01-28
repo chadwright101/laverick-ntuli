@@ -3,6 +3,7 @@ import FlexibleDynamicSection from "@/_components/home-page/flexible-dynamic-sec
 import HeroComponent from "@/_components/home-page/hero/hero-component";
 import OurHistory from "@/_components/home-page/our-history";
 import OurServices from "@/_components/home-page/our-services";
+import ThembiSection from "@/_components/home-page/thembi-section";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <OurServices />
       <OurHistory />
       <ValuedClientsSection />
+      <ThembiSection />
     </div>
   );
 }

@@ -11,7 +11,10 @@ import {
 
 export default function OurHistory() {
   return (
-    <section className="w-full max-w-[1280px] mx-auto grid gap-10 bg-black pt-15 pb-10 px-5 tablet:px-10 desktop:grid-cols-2">
+    <section
+      className="w-full max-w-[1280px] mx-auto grid gap-10 bg-black pt-15 pb-10 px-5 tablet:px-10 desktop:grid-cols-2"
+      id="our-history"
+    >
       <Image
         src="/images/IMG_9580.jpg"
         alt="Team members in white shirts and hard hats"

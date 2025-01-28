@@ -6,7 +6,7 @@ import navData from "@/_data/nav-data.json";
 export function DesktopFooter() {
   return (
     <div className="hidden tablet:block bg-purple pt-10 pb-5">
-      <div className="max-w-[1280px] mx-auto px-10 desktop:px-15">
+      <div className="max-w-[1280px] mx-auto px-10 desktop:px-10">
         <div className="flex justify-between">
           <nav>
             <ul className="flex flex-col">
