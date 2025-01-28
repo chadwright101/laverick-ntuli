@@ -46,6 +46,7 @@ const HeroSlider = ({ cssClasses, data }: Props) => {
             height={700}
             loading={index < 1 ? "eager" : "lazy"}
             sizes="(max-width: 600px) 150vw, 100vw"
+            quality={85}
           />
         </SwiperSlide>
       ))}

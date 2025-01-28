@@ -30,7 +30,7 @@
   }
 
   p {
-    @apply text-paragraph;
+    @apply text-paragraph text-darkGrey;
   }
 
   a {
@@ -40,6 +40,10 @@
   input,
   textarea {
     @apply text-black font-thin;
+  }
+
+  :root {
+    --radius: 0.5rem;
   }
 }
 

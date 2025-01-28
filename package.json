@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-accordion": "^1.2.2",
     "@types/react-google-recaptcha": "^2.1.9",
+    "class-variance-authority": "^0.7.1",
     "classnames": "^2.5.1",
+    "clsx": "^2.1.1",
     "express": "^4.21.2",
     "express-rate-limit": "^7.5.0",
     "isomorphic-dompurify": "^2.20.0",
@@ -20,7 +23,9 @@
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "react-google-recaptcha": "^3.1.0",
-    "swiper": "^11.2.1"
+    "swiper": "^11.2.1",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 import { AlignLeft, X } from "lucide-react";
 
-import ButtonLink from "@/_utils/button-link";
+import ButtonLink from "@/_utils/buttons/button-link";
 
 import navData from "@/_data/nav-data.json";
 
@@ -14,7 +14,7 @@ export function MobileHeader() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative flex w-full items-center justify-between p-4 desktop:hidden">
+    <div className="relative flex w-full items-center justify-between px-5 py-4 tablet:px-10 desktop:hidden">
       <div className="flex gap-5 items-center">
         <Link href="/">
           <Image
