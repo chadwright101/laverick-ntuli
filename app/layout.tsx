@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "@/_styles/globals.css";
 import { Header } from "@/_components/navigation/header/header";
+import { Footer } from "@/_components/navigation/footer/footer";
 
 export const metadata: Metadata = {
   title: "Laverick Ntuli Communications",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -7,7 +7,7 @@ import navData from "@/_data/nav-data.json";
 
 export function DesktopHeader() {
   return (
-    <div className="hidden p-4 items-end justify-between desktop:flex">
+    <div className="hidden py-4 px-15 items-end justify-between desktop:flex">
       <div className="flex gap-5 items-center">
         <Link href="/">
           <Image

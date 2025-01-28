@@ -33,6 +33,10 @@
     @apply text-paragraph text-justify;
   }
 
+  a {
+    @apply text-paragraph
+  }
+
   input,
   textarea {
     @apply text-black font-thin;
