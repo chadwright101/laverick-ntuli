@@ -41,5 +41,51 @@
       "description": "Sourcing to final product.",
       "iconKey": "gift"
     }
+  ],
+  "ourClients": [
+    {
+      "src": "/images/clients/atlas.png",
+      "alt": "Atlas Copco"
+    },
+    {
+      "src": "/images/clients/emv.png",
+      "alt": "EMV"
+    },
+    {
+      "src": "/images/clients/epiroc.png",
+      "alt": "Epiroc"
+    },
+    {
+      "src": "/images/clients/greentech.png",
+      "alt": "Green Tech"
+    },
+    {
+      "src": "/images/clients/methodist-homes.png",
+      "alt": "Methodist Homes"
+    },
+    {
+      "src": "/images/clients/multialloys.png",
+      "alt": "Multialloys"
+    },
+    {
+      "src": "/images/clients/rand-air.png",
+      "alt": "Rand Air"
+    },
+    {
+      "src": "/images/clients/regal.png",
+      "alt": "Regal"
+    },
+    {
+      "src": "/images/clients/skf.png",
+      "alt": "SKF"
+    },
+    {
+      "src": "/images/clients/thyssenkrupp.png",
+      "alt": "Thyssenkrupp"
+    },
+    {
+      "src": "/images/clients/wacker.png",
+      "alt": "Wacker"
+    }
   ]
 }

@@ -16,7 +16,7 @@ export const buttonStyles = (
   padding?: string
 ) =>
   classNames(
-    "flex justify-center font-bold tracking-[-0.02rem] rounded-[6px] uppercase duration-200 text-center",
+    "flex justify-center font-bold tracking-[-0.02rem] rounded-[6px] uppercase duration-500 text-center",
     cssClasses,
     padding,
     {

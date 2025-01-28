@@ -5,6 +5,7 @@ interface Props {
   cssClasses?: string;
   background?: "purple" | "transparent";
   borderColor?: string;
+  textColor?: "white" | "black";
 }
 
 const Heading = ({
@@ -12,6 +13,7 @@ const Heading = ({
   cssClasses,
   background = "purple",
   borderColor = "border-grey",
+  textColor = "white",
 }: Props) => {
   return (
     <div
@@ -32,8 +34,10 @@ const Heading = ({
         })}
       >
         <h2
-          className={classNames("py-5 text-heading text-white", {
+          className={classNames("py-5 text-heading", {
             "px-5": background === "purple",
+            "text-white": textColor === "white",
+            "text-black": textColor === "black",
           })}
         >
           {children}
