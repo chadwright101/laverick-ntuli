@@ -4,5 +4,42 @@
     "/images/IMG_9580.jpg",
     "/images/IMG_9676.jpg",
     "/images/IMG_9681.jpg"
+  ],
+  "services": [
+    {
+      "title": "Public Relations",
+      "description": "Excellent writing skills; all types of press releases (technical, corporate social investment, etc.)",
+      "iconKey": "megaphone"
+    },
+    {
+      "title": "Social media",
+      "description": "Creation of social media content including design of online banners, etc. Posting, sharing, liking and reposting.",
+      "iconKey": "share"
+    },
+    {
+      "title": "Advertising",
+      "description": "Creation of targeted advertising schedules, end-to-end coordination from ad bookings to final material.",
+      "iconKey": "volume"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "Digital advertisements, online banners, e-newsletters, flyers, posters, brochures, street posters, bill boards.",
+      "iconKey": "palette"
+    },
+    {
+      "title": "Photography & Videography",
+      "description": "Delivered by a professional.",
+      "iconKey": "camera"
+    },
+    {
+      "title": "Coordination",
+      "description": "Coordination of events, press conferences, exhibitions, etc.",
+      "iconKey": "users"
+    },
+    {
+      "title": "Promotional Gifts",
+      "description": "Sourcing to final product.",
+      "iconKey": "gift"
+    }
   ]
 }
