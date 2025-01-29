@@ -1,4 +1,4 @@
-import HeroSlider from "@/_components/home-page/hero/hero-slider";
+import HeroSlider from "@/_components/pages/home-page/hero/hero-slider";
 
 import data from "@/_data/general-data.json";
 

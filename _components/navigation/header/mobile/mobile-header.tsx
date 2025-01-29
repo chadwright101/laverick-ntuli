@@ -6,7 +6,7 @@ import Link from "next/link";
 
 import { AlignLeft, X } from "lucide-react";
 
-import ButtonLink from "@/_utils/buttons/button-link";
+import ButtonLink from "@/_components/ui/buttons/button-link";
 
 import navData from "@/_data/nav-data.json";
 

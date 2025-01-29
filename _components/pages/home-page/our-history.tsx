@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Heading from "@/_utils/headings/heading";
+import Heading from "@/_components/ui/headings/heading";
 import {
   Accordion,
   AccordionContent,

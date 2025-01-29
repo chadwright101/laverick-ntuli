@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 import navData from "@/_data/nav-data.json";
+import ShowPhoneNumber from "@/_components/ui/contact/show-phone-number";
+import ShowEmailAddress from "@/_components/ui/contact/show-email-address";
 
 export function DesktopFooter() {
   return (
@@ -68,19 +70,18 @@ export function DesktopFooter() {
               </Link>
             </div>
             <div className="flex flex-col items-end text-right">
-              <Link
-                href="tel:+27799491090"
-                className="text-white text-[14px] tracking-[-0.0075rem] hover:opacity-80 ease-in-out duration-200"
-                target="_blank"
-              >
-                +27 79 949 1090
-              </Link>
-              <Link
-                href="mailto:sonia@laverickmedia.co.za"
-                className="text-white text-[14px] tracking-[-0.0075rem] hover:opacity-80 ease-in-out duration-200"
-              >
-                sonia@laverickmedia.co.za
-              </Link>
+              <ShowPhoneNumber
+                buttonClasses="text-white hover:opacity-80 ease-in-out duration-200"
+                linkClasses="text-white hover:opacity-80 ease-in-out duration-200"
+                spinnerColor="white"
+                smallText
+              />
+              <ShowEmailAddress
+                buttonClasses="text-white hover:opacity-80 ease-in-out duration-200"
+                linkClasses="text-white hover:opacity-80 ease-in-out duration-200"
+                spinnerColor="white"
+                smallText
+              />
             </div>
             <div className="text-right">
               <p className="text-[14px] tracking-[-0.0075rem] text-white">

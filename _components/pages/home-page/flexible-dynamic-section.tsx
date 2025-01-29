@@ -1,4 +1,4 @@
-import ButtonLink from "@/_utils/buttons/button-link";
+import ButtonLink from "@/_components/ui/buttons/button-link";
 
 export default function FlexibleDynamicSection() {
   return (

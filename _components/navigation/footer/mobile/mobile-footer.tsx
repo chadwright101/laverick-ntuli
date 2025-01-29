@@ -1,3 +1,5 @@
+import ShowEmailAddress from "@/_components/ui/contact/show-email-address";
+import ShowPhoneNumber from "@/_components/ui/contact/show-phone-number";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -22,19 +24,16 @@ export function MobileFooter() {
         </Link>
       </div>
       <div className="flex flex-col items-center gap-5">
-        <Link
-          href="tel:+27799491090"
-          className="text-white p-2 -m-2"
-          target="_blank"
-        >
-          +27 79 949 1090
-        </Link>
-        <Link
-          href="mailto:sonia@laverickmedia.co.za"
-          className="text-white p-2 -m-2"
-        >
-          sonia@laverickmedia.co.za
-        </Link>
+        <ShowPhoneNumber
+          buttonClasses="text-white"
+          linkClasses="text-white"
+          spinnerColor="white"
+        />
+        <ShowEmailAddress
+          buttonClasses="text-white"
+          linkClasses="text-white"
+          spinnerColor="white"
+        />
       </div>
       <hr className="text-grey/25 w-[70px]" />
       <div className="text-center">

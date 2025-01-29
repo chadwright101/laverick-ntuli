@@ -1,4 +1,4 @@
-import Heading from "@/_utils/headings/heading";
+import Heading from "@/_components/ui/headings/heading";
 import Image from "next/image";
 
 const ThembiSection = () => {

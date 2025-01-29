@@ -8,7 +8,7 @@ import {
   Users,
   Gift,
 } from "lucide-react";
-import Heading from "@/_utils/headings/heading";
+import Heading from "@/_components/ui/headings/heading";
 import generalData from "@/_data/general-data.json";
 
 const iconMapping = {

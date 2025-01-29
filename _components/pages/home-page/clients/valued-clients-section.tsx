@@ -1,6 +1,6 @@
-import Heading from "@/_utils/headings/heading";
+import Heading from "@/_components/ui/headings/heading";
 import ValuedClientsSlideshow from "./valued-clients-slideshow";
-import ButtonLink from "@/_utils/buttons/button-link";
+import ButtonLink from "@/_components/ui/buttons/button-link";
 
 const ValuedClientsSection = () => {
   return (
