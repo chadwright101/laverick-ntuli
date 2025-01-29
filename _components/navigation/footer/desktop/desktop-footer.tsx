@@ -13,7 +13,7 @@ export function DesktopFooter() {
           <nav>
             <ul className="flex flex-col">
               {navData.map((item) => {
-                if (item.title !== "Press Releases") {
+                if (item.title !== "Contact Us") {
                   return (
                     <li key={item.title}>
                       <Link

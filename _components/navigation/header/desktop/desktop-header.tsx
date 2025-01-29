@@ -25,7 +25,7 @@ export function DesktopHeader() {
       <nav>
         <ul className="flex gap-3 items-center">
           {navData.map(({ title, url }, id) => {
-            if (title !== "Press Releases") {
+            if (title !== "Contact Us") {
               return (
                 <li key={id}>
                   <Link
@@ -40,11 +40,11 @@ export function DesktopHeader() {
               return (
                 <li key={id}>
                   <ButtonLink
-                    href="/press-releases"
+                    href="/contact"
                     cssClasses="font-light normal-case tracking-[-0.01rem]"
                     padding="px-2 py-1"
                   >
-                    Press Releases
+                    Contact Us
                   </ButtonLink>
                 </li>
               );

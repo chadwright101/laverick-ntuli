@@ -55,7 +55,7 @@ export function MobileHeader() {
         <nav className="px-6">
           <ul className="grid gap-6">
             {navData.map(({ title, url }, id) => {
-              if (title !== "Press Releases") {
+              if (title !== "Contact") {
                 return (
                   <li key={id}>
                     <Link
@@ -71,11 +71,11 @@ export function MobileHeader() {
                 return (
                   <li key={id} className="place-self-start">
                     <ButtonLink
-                      href="/press-releases"
+                      href="/contact"
                       onClick={() => setIsOpen(false)}
                       color="white"
                     >
-                      Press Releases
+                      Contact Us
                     </ButtonLink>
                   </li>
                 );
