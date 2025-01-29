@@ -10,7 +10,7 @@ const ThembiSection = () => {
             Thank you Thembi
           </Heading>
           <Image
-            src="/images/IMG_9602-cropped.jpg"
+            src="/images/thembz.jpg"
             alt="Thembekile (Thembz) Ntuli"
             width={800}
             height={800}
@@ -39,11 +39,11 @@ const ThembiSection = () => {
           </div>
         </div>
         <Image
-          src="/images/IMG_9602-cropped.jpg"
+          src="/images/thembz.jpg"
           alt="Thembekile (Thembz) Ntuli"
           width={800}
           height={800}
-          className="hidden object-cover h-full tablet:block"
+          className="hidden object-cover h-full tablet:block min-[1000px]:aspect-square min-[1000px]:object-top"
           sizes="(max-width: 1280px) 50vw, 25vw"
         />
       </div>

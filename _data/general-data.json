@@ -91,5 +91,61 @@
       "src": "/images/clients/wacker.png",
       "alt": "Wacker"
     }
+  ],
+  "ourTeam": [
+    {
+      "name": "Sonia Laverick",
+      "position": "Founder & owner",
+      "image": "/images/sonia.jpg",
+      "paragraphs": [
+        "I love writing and this is what I do for at least two thirds of my work day. Every client and every marketing account is so different. I enjoy the diversity and the accompanying challenges. Remaining relevant and unique is not easy, particularly when we have clients who have been with us for some 20 years! It is definitely never a one-size-fits-all scenario and that keeps us LNCers on our marketing toes!",
+        "When I started LMC, I never dreamt that I would be blessed with the best team in the world. They are the 5 reasons why I like working at LMC – Thembz, Wil, Livvy, Mel and Morgz 🙂"
+      ]
+    },
+    {
+      "name": "Thembekile (Thembz) Ntuli",
+      "position": "Business partner",
+      "image": "/images/thembz.jpg",
+      "joinDate": "Joined in 1998",
+      "paragraphs": [
+        "I’m always on top of my work, no strain because I like and understand what I`m doing, that's always make me feel needed. Working with friendly, fun and self-assured staff for very long time, makes me feel very relaxed and enjoy my job each and every moment at LMC."
+      ]
+    },
+    {
+      "name": "Wilson (Wil) Malete",
+      "joinDate": "Joined in 2006",
+      "position": "Advertising Manager",
+      "image": "/images/wil.jpg",
+      "paragraphs": [
+        "I like what I do because, every day is a new challenge and I like challenges."
+      ]
+    },
+    {
+      "name": "Olivia (Livvy) Maduna",
+      "joinDate": "Joined in 2010",
+      "position": "Online media monitoring & data specialist",
+      "image": "/images/livvy.jpg",
+      "paragraphs": [
+        "I always think about our clients. What can we bring to them today, what can we create today to help them. Each day we need to think differently. Learning never stops this make my job easy and fun."
+      ]
+    },
+    {
+      "name": "Melissa (Mel) Ferreira",
+      "joinDate": "Joined in 2011",
+      "position": "Graphic Designer",
+      "image": "/images/mel.jpg",
+      "paragraphs": [
+        "It's simple. I am a Graphic Designer and I love it! I can honestly say that I am one of the lucky ones... Graphic Designer Lorinda Mamo, once wrote that every great design begins with an even better story, and my clients have tons! With a great team backing, and inspiring me, there is never a dull moment."
+      ]
+    },
+    {
+      "name": "Morgan (Morgz) Brink",
+      "joinDate": "Joined in 2007",
+      "position": "Professional photographer/videographer & social media specialist",
+      "image": "/images/morgz.jpg",
+      "paragraphs": [
+        "I get to do my passion every day; being creative and making clients happy is the best feeling in the world!"
+      ]
+    }
   ]
 }
