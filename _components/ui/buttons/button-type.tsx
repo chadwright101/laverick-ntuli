@@ -1,3 +1,5 @@
+import { useFormStatus } from "react-dom";
+
 import { buttonStyles } from "./button-link";
 
 interface Props {
@@ -10,7 +12,7 @@ interface Props {
   disabled?: boolean;
 }
 
-const SubmitButton = ({
+const ButtonType = ({
   children,
   onClick,
   cssClasses,
@@ -19,16 +21,18 @@ const SubmitButton = ({
   type = "submit",
   disabled = false,
 }: Props) => {
+  const { pending } = useFormStatus();
+
   return (
     <button
       type={type}
       onClick={onClick}
-      className={buttonStyles(color, cssClasses, padding)}
+      className={buttonStyles(color, cssClasses, padding, disabled, pending)}
       disabled={disabled}
     >
-      {children}
+      {pending ? <div className="spinner-purple"></div> : <>{children}</>}
     </button>
   );
 };
 
-export default SubmitButton;
+export default ButtonType;

@@ -1,7 +1,15 @@
 {
   "contactDetails": {
-    "phone": "+27 79 949 1090",
-    "email": "sonia@laverickmedia.co.za"
+    "phoneNumbers": {
+      "general": "+27 79 949 1090",
+      "creative": "+27 82 654 2979",
+      "publicRelations": "+27 82 775 0878"
+    },
+    "emailAddresses": {
+      "general": "sonia@laverickmedia.co.za",
+      "creative": "melissa@laverickmedia.co.za"
+    },
+    "address": "Postnet Suite #732, Private Bag X153, Bryanston 2021"
   },
   "heroSlider": [
     "/images/IMG_9574-2.jpg",

@@ -5,7 +5,7 @@ import { useState } from "react";
 
 import classNames from "classnames";
 
-import { fetchPhoneNumber } from "@/_actions/contact-actions";
+import { fetchPhoneNumbers } from "@/_actions/contact-actions";
 
 import { showContactProps } from "./show-email-address";
 
@@ -14,26 +14,30 @@ const ShowPhoneNumber = ({
   linkClasses,
   spinnerColor,
   smallText,
+  department,
+  whiteText,
 }: showContactProps) => {
   const [showPhone, setShowPhone] = useState("Show phone number");
   const [showSpinnerEmail, setShowSpinnerEmail] = useState(false);
 
-  const handleShowPhoneNumber = async () => {
+  const handleShowPhoneNumbers = async () => {
     setShowSpinnerEmail(true);
-    const emailAddress = await fetchPhoneNumber();
-    setShowPhone(emailAddress);
+    const phoneNumber =
+      (await fetchPhoneNumbers({ department })) || "Phone number not found";
+    setShowPhone(phoneNumber);
     setShowSpinnerEmail(false);
   };
 
   if (showPhone === "Show phone number") {
     return (
       <button
-        onClick={handleShowPhoneNumber}
+        onClick={handleShowPhoneNumbers}
         className={classNames(
-          "py-3 px-2 -my-3 -mx-2 hover:tablet:text-pink hover:cursor-pointer tablet:p-0 tablet:m-0 italic",
+          "px-2 -mx-2 py-3 -my-3 hover:tablet:opacity-80 hover:cursor-pointer tablet:p-0 tablet:m-0 italic",
           {
             "text-[14px] tracking-[-0.0075rem]": smallText,
             "text-paragraph": !smallText,
+            "text-white": whiteText,
           },
           buttonClasses
         )}
@@ -54,12 +58,13 @@ const ShowPhoneNumber = ({
   } else {
     return (
       <Link
-        href={`tell:${showPhone}`}
+        href={`tel:${showPhone}`}
         className={classNames(
-          "tablet:hover:text-pink",
+          "py-3 px-2 -my-3 -mx-2 tablet:hover:opacity-80 tablet:p-0 tablet:m-0",
           {
             "text-[14px] tracking-[-0.0075rem]": smallText,
             "text-paragraph": !smallText,
+            "text-white": whiteText,
           },
           linkClasses
         )}

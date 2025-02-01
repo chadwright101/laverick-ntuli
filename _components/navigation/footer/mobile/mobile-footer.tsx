@@ -25,11 +25,13 @@ export function MobileFooter() {
       </div>
       <div className="flex flex-col items-center gap-5">
         <ShowPhoneNumber
+          department="general"
           buttonClasses="text-white"
           linkClasses="text-white"
           spinnerColor="white"
         />
         <ShowEmailAddress
+          department="general"
           buttonClasses="text-white"
           linkClasses="text-white"
           spinnerColor="white"

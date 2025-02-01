@@ -29,7 +29,8 @@
     @apply text-subheadingSmall;
   }
 
-  p {
+  p,
+  address {
     @apply text-paragraph text-darkGrey;
   }
 

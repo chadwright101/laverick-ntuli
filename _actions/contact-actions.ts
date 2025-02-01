@@ -3,13 +3,35 @@
 import contactData from "@/_data/general-data.json";
 
 const {
-  contactDetails: { email, phone },
+  contactDetails: { emailAddresses, phoneNumbers },
 } = contactData;
 
-export const fetchEmailAddress = async () => {
-  return email;
+interface ContactDepartmentProps {
+  department: "creative" | "general" | "publicRelations";
+}
+
+export const fetchEmailAddresses = async ({
+  department,
+}: ContactDepartmentProps) => {
+  if (department === "creative") {
+    return emailAddresses.creative;
+  } else if (department === "general") {
+    return emailAddresses.general;
+  } else {
+    null;
+  }
 };
 
-export const fetchPhoneNumber = async () => {
-  return phone;
+export const fetchPhoneNumbers = async ({
+  department,
+}: ContactDepartmentProps) => {
+  if (department === "creative") {
+    return phoneNumbers.creative;
+  } else if (department === "general") {
+    return phoneNumbers.general;
+  } else if (department === "publicRelations") {
+    return phoneNumbers.publicRelations;
+  } else {
+    null;
+  }
 };

@@ -71,12 +71,14 @@ export function DesktopFooter() {
             </div>
             <div className="flex flex-col items-end text-right">
               <ShowPhoneNumber
+                department="general"
                 buttonClasses="text-white hover:opacity-80 ease-in-out duration-200"
                 linkClasses="text-white hover:opacity-80 ease-in-out duration-200"
                 spinnerColor="white"
                 smallText
               />
               <ShowEmailAddress
+                department="general"
                 buttonClasses="text-white hover:opacity-80 ease-in-out duration-200"
                 linkClasses="text-white hover:opacity-80 ease-in-out duration-200"
                 spinnerColor="white"

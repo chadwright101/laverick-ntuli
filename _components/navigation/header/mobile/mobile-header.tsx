@@ -55,7 +55,7 @@ export function MobileHeader() {
         <nav className="px-6">
           <ul className="grid gap-6">
             {navData.map(({ title, url }, id) => {
-              if (title !== "Contact") {
+              if (title !== "Contact Us") {
                 return (
                   <li key={id}>
                     <Link
