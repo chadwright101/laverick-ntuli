@@ -13,7 +13,7 @@ export function DesktopHeader() {
           <Image
             src="/images/logo/laverick-ntuli-communications-bulb-only.png"
             alt="Laverick Ntuli Communications Logo"
-            width={55}
+            width={60}
             height={60}
             priority
           />
@@ -43,6 +43,7 @@ export function DesktopHeader() {
                     href="/contact"
                     cssClasses="font-light normal-case tracking-[-0.01rem]"
                     padding="px-2 py-1"
+                    ariaLabel="Contact Us"
                   >
                     Contact Us
                   </ButtonLink>

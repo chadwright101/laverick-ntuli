@@ -24,7 +24,7 @@ export default function ContactForm({
   setShowMessage,
 }: Props) {
   const [submissionStartTime, setSubmissionStartTime] = useState(0);
-  const [validateRecaptcha, setValidateRecaptcha] = useState(false);
+  const [validateRecaptcha, setValidateRecaptcha] = useState(true);
 
   useEffect(() => {
     const startSubmissionTimer = () => {

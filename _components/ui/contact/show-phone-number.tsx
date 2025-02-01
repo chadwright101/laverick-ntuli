@@ -12,7 +12,7 @@ import { showContactProps } from "./show-email-address";
 const ShowPhoneNumber = ({
   buttonClasses,
   linkClasses,
-  spinnerColor,
+  spinnerColor = "purple",
   smallText,
   department,
   whiteText,

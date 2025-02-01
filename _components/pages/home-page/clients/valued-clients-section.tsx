@@ -24,7 +24,7 @@ const ValuedClientsSection = () => {
         <h3 className="text-white text-subheadingLarge font-normal">
           Get In Touch
         </h3>
-        <ButtonLink href="/contact" cssClasses="w-full">
+        <ButtonLink href="/contact" cssClasses="w-full" ariaLabel="Contact Us">
           Contact Us
         </ButtonLink>
       </div>

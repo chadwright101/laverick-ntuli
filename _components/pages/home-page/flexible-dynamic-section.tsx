@@ -27,7 +27,7 @@ export default function FlexibleDynamicSection() {
         <h3 className="text-white text-center text-subheadingLarge tablet:text-black">
           Meet The Team
         </h3>
-        <ButtonLink href="/our-team" color="purple">
+        <ButtonLink href="/our-team" ariaLabel="Meet the team" color="purple">
           Learn More
         </ButtonLink>
       </div>

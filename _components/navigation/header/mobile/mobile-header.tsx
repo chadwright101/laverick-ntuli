@@ -74,6 +74,7 @@ export function MobileHeader() {
                       href="/contact"
                       onClick={() => setIsOpen(false)}
                       color="white"
+                      ariaLabel="Contact Us"
                     >
                       Contact Us
                     </ButtonLink>

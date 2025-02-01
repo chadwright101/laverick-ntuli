@@ -24,10 +24,18 @@ const ContactInfo = ({ cssClasses }: Props) => {
           <h3 className="text-white">General enquiries</h3>
           <ul className="grid gap-5 desktop:gap-2.5">
             <li>
-              <ShowEmailAddress whiteText department="general" />
+              <ShowEmailAddress
+                spinnerColor="white"
+                whiteText
+                department="general"
+              />
             </li>
             <li>
-              <ShowPhoneNumber whiteText department="general" />
+              <ShowPhoneNumber
+                spinnerColor="white"
+                whiteText
+                department="general"
+              />
             </li>
           </ul>
         </div>
@@ -35,10 +43,18 @@ const ContactInfo = ({ cssClasses }: Props) => {
           <h3 className="text-white">LNC Creative</h3>
           <ul className="grid gap-5 desktop:gap-2.5">
             <li>
-              <ShowEmailAddress whiteText department="creative" />
+              <ShowEmailAddress
+                spinnerColor="white"
+                whiteText
+                department="creative"
+              />
             </li>
             <li>
-              <ShowPhoneNumber whiteText department="creative" />
+              <ShowPhoneNumber
+                spinnerColor="white"
+                whiteText
+                department="creative"
+              />
             </li>
           </ul>
         </div>
@@ -46,10 +62,18 @@ const ContactInfo = ({ cssClasses }: Props) => {
           <h3 className="text-white">LNC Public Relations</h3>
           <ul className="grid gap-5 desktop:gap-2.5">
             <li>
-              <ShowPhoneNumber whiteText department="general" />
+              <ShowPhoneNumber
+                spinnerColor="white"
+                whiteText
+                department="general"
+              />
             </li>
             <li>
-              <ShowPhoneNumber whiteText department="publicRelations" />
+              <ShowPhoneNumber
+                spinnerColor="white"
+                whiteText
+                department="publicRelations"
+              />
             </li>
           </ul>
         </div>

@@ -23,7 +23,7 @@ export const emailTemplate = ({
     <table style="width: 100%; background-color: #6939B6;">
       <tr>
         <td>
-          <h1 style="padding: 1rem;">Laverick Ntuli Communications</h1>
+          <h1 style="padding: 1rem; color: #ffffff">Laverick Ntuli Communications</h1>
         </td>
       </tr>
     </table>

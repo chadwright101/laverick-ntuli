@@ -1,6 +1,7 @@
 import { useFormStatus } from "react-dom";
 
 import { buttonStyles } from "./button-link";
+import classNames from "classnames";
 
 interface Props {
   children: React.ReactNode;
@@ -27,10 +28,21 @@ const ButtonType = ({
     <button
       type={type}
       onClick={onClick}
-      className={buttonStyles(color, cssClasses, padding, disabled, pending)}
-      disabled={disabled}
+      className={classNames(
+        buttonStyles(color, cssClasses, padding, disabled, pending),
+        {
+          "opacity-50 desktop:cursor-not-allowed desktop:hover:none": pending,
+        }
+      )}
+      disabled={disabled || pending}
     >
-      {pending ? <div className="spinner-purple"></div> : <>{children}</>}
+      {pending ? (
+        <div className="py-[3px]">
+          <div className="spinner-white"></div>
+        </div>
+      ) : (
+        <>{children}</>
+      )}
     </button>
   );
 };
