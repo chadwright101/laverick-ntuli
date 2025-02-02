@@ -12,10 +12,10 @@ const Contact = () => {
   const [showMessage, setShowMessage] = useState(false);
 
   return (
-    <div className="px-5 tablet:px-0">
+    <div>
       <div className="pt-15 px-5 tablet:px-10 bg-darkGrey max-w-[1280px] mx-auto grid gap-10 desktop:pb-10">
         <ContactInfo cssClasses="tablet:grid grid-cols-2 gap-10 desktop:grid-cols-1" />
-        <div className="desktop:grid grid-cols-2 gap-10">
+        <div className="px-5 desktop:px-0 desktop:grid grid-cols-2 gap-10">
           <div className="bg-white -mx-10 py-10 px-5 tablet:mx-0 tablet:bg-transparent tablet:px-0 desktop:py-0">
             <ContactForm
               showEmailSubmitted={showEmailSubmitted}

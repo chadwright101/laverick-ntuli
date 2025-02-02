@@ -1,9 +1,15 @@
+import { Metadata } from "next";
+
 import TeamMember from "@/_components/pages/our-team/team-member";
 import Heading from "@/_components/ui/headings/heading";
 
 import teamData from "@/_data/general-data.json";
 
 const { ourTeam } = teamData;
+
+export const metadata: Metadata = {
+  title: "Our Team - Laverick Ntuli Communications",
+};
 
 const OurTeam = () => {
   return (
