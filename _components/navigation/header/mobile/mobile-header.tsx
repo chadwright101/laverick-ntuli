@@ -47,8 +47,8 @@ export function MobileHeader({ isScrolled }: HeaderProps) {
             width={60}
             height={60}
             priority
-            className={classNames("ease-in-out duration-300 delay-100", {
-              "w-10 h-auto": isScrolled,
+            className={classNames("ease-in-out duration-300", {
+              "scale-[80%]": isScrolled,
             })}
           />
         </Link>

@@ -41,7 +41,7 @@ const Contact = () => {
               height={800}
               sizes="50vw"
               className={classNames("object-cover h-full", {
-                "desktop:hidden": !showMessage,
+                "desktop:hidden": !showMessage || showEmailSubmitted,
               })}
             />
           </div>

@@ -9,15 +9,15 @@ import classNames from "classnames";
 
 export function DesktopHeader({ isScrolled }: HeaderProps) {
   return (
-    <div
-      className={classNames(
-        "hidden overflow-hidden py-4 px-10 items-end justify-between desktop:flex ease-in-out duration-300",
-        {
-          "pb-2.5 pt-2": isScrolled,
-        }
-      )}
-    >
-      <div className="flex gap-5 items-center">
+    <div className="hidden py-4 px-10 items-end justify-between desktop:flex ease-in-out duration-300">
+      <div
+        className={classNames(
+          "flex gap-5 items-center ease-in-out duration-300",
+          {
+            "translate-y-3": isScrolled,
+          }
+        )}
+      >
         <Link href="/">
           <Image
             src="/images/logo/laverick-ntuli-communications-bulb-only.png"
@@ -25,8 +25,8 @@ export function DesktopHeader({ isScrolled }: HeaderProps) {
             width={60}
             height={60}
             priority
-            className={classNames("ease-in-out duration-300 delay-100", {
-              "w-10 h-auto": isScrolled,
+            className={classNames("ease-in-out duration-300", {
+              "scale-[70%]": isScrolled,
             })}
           />
         </Link>
@@ -41,7 +41,11 @@ export function DesktopHeader({ isScrolled }: HeaderProps) {
           Laverick <span>Ntuli</span> <span>Communications</span>
         </h1>
       </div>
-      <nav>
+      <nav
+        className={classNames("ease-in-out duration-300", {
+          "translate-y-1.5": isScrolled,
+        })}
+      >
         <ul className="flex gap-3 items-center">
           {navData.map(({ title, url }, id) => {
             if (title !== "Contact Us") {
