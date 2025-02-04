@@ -35,7 +35,7 @@ export function MobileHeader({ isScrolled }: HeaderProps) {
       className={classNames(
         "relative flex w-full items-center justify-between px-5 py-4 tablet:px-10 desktop:hidden ease-in-out duration-300",
         {
-          "py-2": isScrolled,
+          "pb-2": isScrolled,
         }
       )}
     >

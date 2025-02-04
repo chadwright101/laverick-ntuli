@@ -23,7 +23,7 @@ export function Header() {
       className={classNames(
         "sticky top-0 left-0 border-b-[2px] bg-white border-purple z-50 ease-in-out duration-300",
         {
-          "-top-[22px]": isScrolled,
+          "-top-2 desktop:-top-[22px]": isScrolled,
         }
       )}
     >
