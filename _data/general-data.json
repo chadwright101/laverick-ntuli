@@ -56,36 +56,36 @@
   ],
   "ourClients": [
     {
-      "src": "/images/clients/atlas.png",
-      "alt": "Atlas Copco"
+      "src": "/images/clients/atlas-copco-group.png",
+      "alt": "Atlas Copco Group"
     },
     {
-      "src": "/images/clients/emv.png",
-      "alt": "EMV"
+      "src": "/images/clients/bearings-international.png",
+      "alt": "Bearings International"
+    },
+    {
+      "src": "/images/clients/elgi.png",
+      "alt": "Elgi"
+    },
+    {
+      "src": "/images/clients/emvafrica.png",
+      "alt": "EMV Africa"
     },
     {
       "src": "/images/clients/epiroc.png",
       "alt": "Epiroc"
     },
     {
-      "src": "/images/clients/greentech.png",
-      "alt": "Green Tech"
+      "src": "/images/clients/intergrated-air-solutions.png",
+      "alt": "Intergrated Air Solutions"
     },
     {
-      "src": "/images/clients/methodist-homes.png",
-      "alt": "Methodist Homes"
+      "src": "/images/clients/machine-cutting-services.png",
+      "alt": "Machine Cutting Services"
     },
     {
-      "src": "/images/clients/multialloys.png",
-      "alt": "Multialloys"
-    },
-    {
-      "src": "/images/clients/rand-air.png",
-      "alt": "Rand Air"
-    },
-    {
-      "src": "/images/clients/regal.png",
-      "alt": "Regal"
+      "src": "/images/clients/marathon-electric.png",
+      "alt": "Marathon Electric"
     },
     {
       "src": "/images/clients/skf.png",
@@ -96,8 +96,8 @@
       "alt": "Thyssenkrupp"
     },
     {
-      "src": "/images/clients/wacker.png",
-      "alt": "Wacker"
+      "src": "/images/clients/wacker-neuson.png",
+      "alt": "Wacker Neuson"
     }
   ],
   "ourTeam": [

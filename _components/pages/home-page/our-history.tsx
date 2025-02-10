@@ -34,7 +34,7 @@ export default function OurHistory() {
         type="single"
         collapsible
         className="bg-grey"
-        defaultValue="item-1"
+        defaultValue="item-2"
       >
         <AccordionItem value="item-1" className="border-b border-darkGrey/25">
           <AccordionTrigger className="text-subheadingSmall hover:text-purple w-full p-4">
@@ -120,7 +120,7 @@ export default function OurHistory() {
                 packages available in our B2B media space.
               </p>
               <p>
-                Olivia, who joined LMC 12 years ago as receptionists and admin
+                Olivia, who joined LMC 15 years ago as receptionists and admin
                 clerk, has a very different role today. Her skill sets now
                 include being a specialist in media monitoring to source online
                 and digital links for clients' online press releases, banners
@@ -128,16 +128,26 @@ export default function OurHistory() {
                 analytics.
               </p>
               <p>
-                Morgan joined us 10 years ago, boosting our marketing arsenal
-                with professional photography and videography services.
+                Morgan joined us 18 years ago, boosting our marketing arsenal
+                with professional photography and videography services. Morgan
+                is also our Social Media Marketing Specialist.
               </p>
               <p>
                 Most importantly, the team has years of experience and we are
-                passionate in what we do. We are a full on digital PR and
+                passionate in what we do. We are a full-on digital PR and
                 Advertising agency offering professional and premium class
                 services, often below going market rates, and delivering these
                 services in a personal manner. We are extremely proud of the
                 fact that many of our clients have been with us for close on 20
+                years.
+              </p>
+              <p>
+                Most importantly, the team has years of experience and we are
+                passionate in what we do. We are a full-on digital PR and
+                Advertising agency offering professional and premium class
+                services, often below going market rates, and delivering these
+                services in a personal manner. We are extremely proud of the
+                fact that many of our clients have been with us for close on 25
                 years.
               </p>
               <p>
