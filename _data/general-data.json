@@ -1,0 +1,167 @@
+{
+  "contactDetails": {
+    "phoneNumbers": {
+      "general": "+27 79 949 1090",
+      "creative": "+27 82 654 2979",
+      "publicRelations": "+27 82 775 0878"
+    },
+    "emailAddresses": {
+      "general": "sonia@laverickmedia.co.za",
+      "creative": "melissa@laverickmedia.co.za"
+    },
+    "address": "Postnet Suite #732, Private Bag X153, Bryanston 2021"
+  },
+  "heroSlider": [
+    "/images/IMG_9574-2.jpg",
+    "/images/IMG_9580.jpg",
+    "/images/IMG_9676.jpg",
+    "/images/IMG_9681.jpg"
+  ],
+  "services": [
+    {
+      "title": "Public Relations",
+      "description": "Excellent writing skills; all types of press releases (technical, corporate social investment, etc.)",
+      "iconKey": "megaphone"
+    },
+    {
+      "title": "Social media",
+      "description": "Creation of social media content including design of online banners, etc. Posting, sharing, liking and reposting.",
+      "iconKey": "share"
+    },
+    {
+      "title": "Advertising",
+      "description": "Creation of targeted advertising schedules, end-to-end coordination from ad bookings to final material.",
+      "iconKey": "volume"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "Digital advertisements, online banners, e-newsletters, flyers, posters, brochures, street posters, bill boards.",
+      "iconKey": "palette"
+    },
+    {
+      "title": "Photography & Videography",
+      "description": "Delivered by a professional.",
+      "iconKey": "camera"
+    },
+    {
+      "title": "Coordination",
+      "description": "Coordination of events, press conferences, exhibitions, etc.",
+      "iconKey": "users"
+    },
+    {
+      "title": "Promotional Gifts",
+      "description": "Sourcing to final product.",
+      "iconKey": "gift"
+    }
+  ],
+  "ourClients": [
+    {
+      "src": "/images/clients/atlas-copco-group.png",
+      "alt": "Atlas Copco Group"
+    },
+    {
+      "src": "/images/clients/bearings-international.png",
+      "alt": "Bearings International"
+    },
+    {
+      "src": "/images/clients/elgi.png",
+      "alt": "Elgi"
+    },
+    {
+      "src": "/images/clients/emvafrica.png",
+      "alt": "EMV Africa"
+    },
+    {
+      "src": "/images/clients/epiroc.png",
+      "alt": "Epiroc"
+    },
+    {
+      "src": "/images/clients/intergrated-air-solutions.png",
+      "alt": "Intergrated Air Solutions"
+    },
+    {
+      "src": "/images/clients/machine-cutting-services.png",
+      "alt": "Machine Cutting Services"
+    },
+    {
+      "src": "/images/clients/marathon-electric.png",
+      "alt": "Marathon Electric"
+    },
+    {
+      "src": "/images/clients/methodist-homes.png",
+      "alt": "Methodist Homes"
+    },
+    {
+      "src": "/images/clients/neon-productions.png",
+      "alt": "Neon Productions"
+    },
+    {
+      "src": "/images/clients/skf.png",
+      "alt": "SKF"
+    },
+    {
+      "src": "/images/clients/thyssenkrupp.png",
+      "alt": "Thyssenkrupp"
+    },
+    {
+      "src": "/images/clients/wacker-neuson.png",
+      "alt": "Wacker Neuson"
+    }
+  ],
+  "ourTeam": [
+    {
+      "name": "Sonia Laverick",
+      "position": "Founder & owner",
+      "image": "/images/sonia.jpg",
+      "paragraphs": [
+        "I love writing and this is what I do for at least two thirds of my work day. Every client and every marketing account is so different. I enjoy the diversity and the accompanying challenges. Remaining relevant and unique is not easy, particularly when we have clients who have been with us for some 20 years! It is definitely never a one-size-fits-all scenario and that keeps us LNCers on our marketing toes!",
+        "When I started LMC, I never dreamt that I would be blessed with the best team in the world. They are the 5 reasons why I like working at LMC – Thembz, Wil, Livvy, Mel and Morgz 🙂"
+      ]
+    },
+    {
+      "name": "Thembekile (Thembz) Ntuli",
+      "position": "Business partner",
+      "image": "/images/thembz.jpg",
+      "joinDate": "Joined in 1998",
+      "paragraphs": [
+        "I’m always on top of my work, no strain because I like and understand what I`m doing, that's always make me feel needed. Working with friendly, fun and self-assured staff for very long time, makes me feel very relaxed and enjoy my job each and every moment at LMC."
+      ]
+    },
+    {
+      "name": "Wilson (Wil) Malete",
+      "joinDate": "Joined in 2006",
+      "position": "Advertising Manager",
+      "image": "/images/wil.jpg",
+      "paragraphs": [
+        "I like what I do because, every day is a new challenge and I like challenges."
+      ]
+    },
+    {
+      "name": "Olivia (Livvy) Maduna",
+      "joinDate": "Joined in 2010",
+      "position": "Online media monitoring & data specialist",
+      "image": "/images/livvy.jpg",
+      "paragraphs": [
+        "I always think about our clients. What can we bring to them today, what can we create today to help them. Each day we need to think differently. Learning never stops this make my job easy and fun."
+      ]
+    },
+    {
+      "name": "Melissa (Mel) Ferreira",
+      "joinDate": "Joined in 2011",
+      "position": "Graphic Designer",
+      "image": "/images/mel.jpg",
+      "paragraphs": [
+        "It's simple. I am a Graphic Designer and I love it! I can honestly say that I am one of the lucky ones... Graphic Designer Lorinda Mamo, once wrote that every great design begins with an even better story, and my clients have tons! With a great team backing, and inspiring me, there is never a dull moment."
+      ]
+    },
+    {
+      "name": "Morgan (Morgz) Brink",
+      "joinDate": "Joined in 2007",
+      "position": "Professional photographer/videographer & social media specialist",
+      "image": "/images/morgz.jpg",
+      "paragraphs": [
+        "I get to do my passion every day; being creative and making clients happy is the best feeling in the world!"
+      ]
+    }
+  ]
+}
