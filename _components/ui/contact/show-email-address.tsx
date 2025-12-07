@@ -28,7 +28,9 @@ const ShowEmailAddress = ({
 
   const handleShowEmailAddresses = () => {
     const emailAddress =
-      contactData.contactDetails.emailAddresses[department] || "Email not found";
+      (department === "creative" || department === "general"
+        ? contactData.contactDetails.emailAddresses[department]
+        : null) || "Email not found";
     setShowEmail(emailAddress);
   };
 
