@@ -5,7 +5,7 @@ import { useState } from "react";
 
 import classNames from "classnames";
 
-import { fetchPhoneNumbers } from "@/_actions/contact-actions";
+import contactData from "@/_data/general-data.json";
 
 import { showContactProps } from "./show-email-address";
 
@@ -18,14 +18,11 @@ const ShowPhoneNumber = ({
   whiteText,
 }: showContactProps) => {
   const [showPhone, setShowPhone] = useState("Show phone number");
-  const [showSpinnerEmail, setShowSpinnerEmail] = useState(false);
 
-  const handleShowPhoneNumbers = async () => {
-    setShowSpinnerEmail(true);
+  const handleShowPhoneNumbers = () => {
     const phoneNumber =
-      (await fetchPhoneNumbers({ department })) || "Phone number not found";
+      contactData.contactDetails.phoneNumbers[department] || "Phone number not found";
     setShowPhone(phoneNumber);
-    setShowSpinnerEmail(false);
   };
 
   if (showPhone === "Show phone number") {
@@ -43,16 +40,7 @@ const ShowPhoneNumber = ({
         )}
         aria-label="Show phone number"
       >
-        {showSpinnerEmail ? (
-          <div
-            className={classNames({
-              "spinner-purple": spinnerColor === "purple",
-              "spinner-white": spinnerColor === "white",
-            })}
-          ></div>
-        ) : (
-          showPhone
-        )}
+        {showPhone}
       </button>
     );
   } else {

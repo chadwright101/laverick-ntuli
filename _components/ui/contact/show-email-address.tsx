@@ -5,7 +5,7 @@ import { useState } from "react";
 
 import classNames from "classnames";
 
-import { fetchEmailAddresses } from "@/_actions/contact-actions";
+import contactData from "@/_data/general-data.json";
 
 export interface showContactProps {
   buttonClasses?: string;
@@ -25,14 +25,11 @@ const ShowEmailAddress = ({
   whiteText,
 }: showContactProps) => {
   const [showEmail, setShowEmail] = useState("Show email address");
-  const [showSpinnerEmail, setShowSpinnerEmail] = useState(false);
 
-  const handleShowEmailAddresses = async () => {
-    setShowSpinnerEmail(true);
+  const handleShowEmailAddresses = () => {
     const emailAddress =
-      (await fetchEmailAddresses({ department })) || "Email not found";
+      contactData.contactDetails.emailAddresses[department] || "Email not found";
     setShowEmail(emailAddress);
-    setShowSpinnerEmail(false);
   };
 
   if (showEmail === "Show email address") {
@@ -50,16 +47,7 @@ const ShowEmailAddress = ({
         )}
         aria-label="Show email address"
       >
-        {showSpinnerEmail ? (
-          <div
-            className={classNames({
-              "spinner-purple": spinnerColor === "purple",
-              "spinner-white": spinnerColor === "white",
-            })}
-          ></div>
-        ) : (
-          showEmail
-        )}
+        {showEmail}
       </button>
     );
   } else {
