@@ -18,7 +18,7 @@ export const fetchEmailAddresses = async ({
   } else if (department === "general") {
     return emailAddresses.general;
   } else {
-    null;
+    return null;
   }
 };
 
@@ -32,6 +32,6 @@ export const fetchPhoneNumbers = async ({
   } else if (department === "publicRelations") {
     return phoneNumbers.publicRelations;
   } else {
-    null;
+    return null;
   }
 };
