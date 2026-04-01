@@ -50,10 +50,9 @@ export default function OurHistory() {
                 maximum effect, demands the support of a good advertising
                 campaign to ensure that a common message is shared with the
                 target audiences. So in the early nineties, we added our
-                advertising to our portfolio and Wilson was appointed as
-                Advertising Manager. Graphic design, originally outsourced, was
-                introduced as an in-house function 11 years ago, spearheaded by
-                Melissa.
+                advertising to our portfolio. Graphic design, originally
+                outsourced, was introduced as an in-house function 11 years ago,
+                spearheaded by Melissa.
               </p>
               <p>
                 This has become our differentiating factor because we are one of
